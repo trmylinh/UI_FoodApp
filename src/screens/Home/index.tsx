@@ -1,47 +1,52 @@
 /* eslint-disable prettier/prettier */
 /* eslint-disable @typescript-eslint/no-unused-vars */
-import { View, Text, StyleSheet, Image, TouchableOpacity } from 'react-native';
+import { View, Text, StyleSheet, Image, TouchableOpacity, ScrollView } from 'react-native';
 import React from 'react';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import Icon from 'react-native-vector-icons/Ionicons';
 import RestaurantList from '../../components/Restaurant/RestaurantList';
+import DiscountList from '../../components/Discount/DiscountList';
 export default function HomeScreen({ navigation }: any) {
   return (
     <View style={styles.container}>
-      <View style={styles.locationView}>
+      <TouchableOpacity style={styles.locationView}>
         <Ionicons
           name="ios-location-outline"
           size={25}
           color="#000"
         />
         <Text style={styles.textLocation}>Cau Giay, Ha Noi</Text>
-      </View>
-      <View style={styles.orderPreview}>
-        <View style={styles.previewHeader}>
-          <Text style={styles.textOrderPreview}>Your last order</Text>
-          <Icon
-            name="md-close"
-            size={25}
-            style={styles.iconClose}
-          />
-        </View>
-        <View style={styles.infoPreview}>
-          <Image
-            source={require('../../assets/images/foods/food1.jpg')}
-            style={styles.imgOrder}
-          />
-          <View style={styles.textOrder}>
-            <Text style={styles.textTime}>Today, 10:45</Text>
-            <Text style={styles.textName}>Souffle Pancakes</Text>
+      </TouchableOpacity>
+      <ScrollView>
+        <View style={styles.orderPreview}>
+          <View style={styles.previewHeader}>
+            <Text style={styles.textOrderPreview}>Your last order</Text>
+            <TouchableOpacity style={styles.iconClose}>
+              <Icon
+                name="md-close"
+                size={25}
+              />
+            </TouchableOpacity>
           </View>
+          <View style={styles.infoPreview}>
+            <Image
+              source={require('../../assets/images/foods/food1.jpg')}
+              style={styles.imgOrder}
+            />
+            <View style={styles.textOrder}>
+              <Text style={styles.textTime}>Today, 10:45</Text>
+              <Text style={styles.textName}>Souffle Pancakes</Text>
+            </View>
+          </View>
+          <TouchableOpacity style={styles.rateButton}>
+            <Text style={styles.textRateBtn}>Rate order</Text>
+          </TouchableOpacity>
         </View>
-        <TouchableOpacity style={styles.rateButton}>
-          <Text style={styles.textRateBtn}>Rate order</Text>
-        </TouchableOpacity>
-      </View>
-      <View style={styles.viewAll}>
-        <RestaurantList/>
-      </View>
+        <View style={styles.viewAll}>
+          <DiscountList />
+          <RestaurantList navigation={navigation} />
+        </View>
+      </ScrollView>
     </View>
   );
 }
@@ -125,7 +130,7 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     fontSize: 15,
   },
-  viewAll:{
-
+  viewAll: {
+    flex: 1,
   },
 });

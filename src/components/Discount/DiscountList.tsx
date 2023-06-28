@@ -2,29 +2,26 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import { View, Text, FlatList, Image, ScrollView, StyleSheet, TouchableOpacity } from 'react-native';
 import React from 'react';
-import { restaurants } from '../../constants';
-import RestaurantItem from './RestaurantItem';
-
-export default function RestaurantList({ navigation }: any) {
+import { discounts } from '../../constants';
+import DiscountItem from './DiscountItem';
+import Icon from 'react-native-vector-icons/Ionicons';
+export default function DiscountList({ navigation }: any) {
     return (
         <View style={styles.container}>
             <View style={styles.viewText}>
-                <Text style={styles.textAll}>All Restaurants</Text>
-                <TouchableOpacity style={styles.viewSeeAll}>
-                    <Text style={styles.textSeeAll}>View all</Text>
+                <Text style={styles.textAll}>🎁 Discount on the entire menu!</Text>
+                <TouchableOpacity>
+                    <Icon
+                        name="md-arrow-forward"
+                        size={30}
+                        color="#000"
+                    />
                 </TouchableOpacity>
             </View>
             <View>
-                {/* {restaurants.map((item, index) => (
-                    <RestaurantItem
-                        key={index}
-                        data={item}
-                        navigation={navigation}
-                    />
-                ))} */}
                 <FlatList
-                    data={restaurants}
-                    renderItem={({item, index}) => (<RestaurantItem data={item} key={index}/>)}
+                    data={discounts}
+                    renderItem={({item, index}) => (<DiscountItem data={item} key={index}/>)}
                     keyExtractor={(item) => item.id}
                     horizontal
                     showsHorizontalScrollIndicator={false}
