@@ -372,3 +372,25 @@ export const myOrders = [
 		image: require('../assets/images/foods/food10.jpg'),
 	},
 ];
+export const profileTabs = [
+	{
+		id: '1',
+		name: 'Payment',
+		icon: 'md-wallet-outline',
+	},
+	{
+		id: '2',
+		name: 'Settings',
+		icon: 'md-settings-outline',
+	},
+	{
+		id: '4',
+		name: 'About',
+		icon: 'md-information-circle-outline',
+	},
+	{
+		id: '3',
+		name: 'Help',
+		icon: 'md-help-circle-outline',
+	},
+];

@@ -2,7 +2,6 @@
 import { View, Text, StyleSheet, Image, TouchableOpacity, ScrollView } from 'react-native';
 import React from 'react';
 import Ionicons from 'react-native-vector-icons/Ionicons';
-import Icon from 'react-native-vector-icons/Ionicons';
 import RestaurantList from '../../components/Restaurant/RestaurantList';
 import DiscountList from '../../components/Discount/DiscountList';
 export default function HomeScreen({ navigation }: any) {
@@ -21,7 +20,7 @@ export default function HomeScreen({ navigation }: any) {
           <View style={styles.previewHeader}>
             <Text style={styles.textOrderPreview}>Your last order</Text>
             <TouchableOpacity style={styles.iconClose}>
-              <Icon
+              <Ionicons
                 name="md-close"
                 size={25}
               />
