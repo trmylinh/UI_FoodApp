@@ -1,10 +1,13 @@
 /* eslint-disable prettier/prettier */
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import { View, Text, StyleSheet, Image, TouchableOpacity, ScrollView } from 'react-native';
 import React from 'react';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import RestaurantList from '../../components/Restaurant/RestaurantList';
 import DiscountList from '../../components/Discount/DiscountList';
-export default function HomeScreen({ navigation }: any) {
+import { useNavigation } from '@react-navigation/native';
+export default function HomeScreen({navigation}: any) {
+  // const navigation = useNavigation();
   return (
     <View style={styles.container}>
       <TouchableOpacity style={styles.locationView}>
@@ -36,13 +39,16 @@ export default function HomeScreen({ navigation }: any) {
               <Text style={styles.textName}>Souffle Pancakes</Text>
             </View>
           </View>
-          <TouchableOpacity style={styles.rateButton}>
+          <TouchableOpacity
+            style={styles.rateButton}
+            onPress={()=> navigation.navigate('RatingScreen')}
+          >
             <Text style={styles.textRateBtn}>Rate order</Text>
           </TouchableOpacity>
         </View>
         <View style={styles.viewAll}>
           <DiscountList />
-          <RestaurantList navigation={navigation} />
+          <RestaurantList />
         </View>
       </ScrollView>
     </View>
