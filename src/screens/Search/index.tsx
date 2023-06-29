@@ -46,9 +46,6 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#fff',
   },
-  list:{
-
-  },
   textHeader: {
     fontSize: 22,
     color: '#000',

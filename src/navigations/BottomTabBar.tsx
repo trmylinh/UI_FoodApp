@@ -20,7 +20,7 @@ const Tab = createBottomTabNavigator();
 
 export default function BottomTabBar() {
     return (
-        <NavigationContainer>
+        // <NavigationContainer>
             <Tab.Navigator
                 initialRouteName={HOME_SCREEN}
                 screenOptions={
@@ -53,6 +53,6 @@ export default function BottomTabBar() {
                 <Tab.Screen name={ORDER_SCREEN} component={OrderScreen} />
                 <Tab.Screen name={PROFILE_SCREEN} component={ProfileScreen} />
             </Tab.Navigator>
-        </NavigationContainer >
+        // {/* </NavigationContainer > */}
     );
 }

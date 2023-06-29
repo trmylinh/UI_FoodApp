@@ -19,10 +19,11 @@ import {
 
 import HomeScreen from './src/screens/Home';
 import BottomTabBar from './src/navigations/BottomTabBar';
+import RootNavigation from './src/navigations';
 
 function App(): JSX.Element {
   return (
-      <BottomTabBar />
+      <RootNavigation />
   );
 }
 
