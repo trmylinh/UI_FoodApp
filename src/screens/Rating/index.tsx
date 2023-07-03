@@ -7,22 +7,17 @@ import Ionicons from 'react-native-vector-icons/Ionicons';
 import OrderItem from '../../components/Order/OrderItem';
 import { iconRatings, myOrders } from '../../constants';
 import RatingItem from '../../components/Rating/RatingItem';
+import Header from '../../components/Header/Header';
 export default function RatingScreen({ navigation }: any) {
     const [isChoosen, setIsChoosen] = useState('');
-    const [nextPage, setNextPage] = useState(false);
     return (
         <View style={styles.container}>
             {/* go back header*/}
-            <View style={styles.iconView}>
-                <TouchableOpacity onPress={() => navigation.goBack()}>
-                    <Ionicons
-                        name="md-close"
-                        size={30}
-                        color="#000"
-                    />
-                </TouchableOpacity>
-                <Text style={styles.textHeader}>Rate your order</Text>
-            </View>
+            <Header
+                icon="md-close"
+                text="Rate your order"
+                onPress={() => navigation.goBack()}
+            />
 
             {/* order info */}
             <View>
@@ -42,7 +37,7 @@ export default function RatingScreen({ navigation }: any) {
                             name={item.name}
                             svg={<Svg style={styles.iconRating} />}
                             key={index}
-                            onPress={()=>{setIsChoosen(item.name);}}
+                            onPress={() => { setIsChoosen(item.name); }}
                             isSelected={isChoosen === item.name}
                         />
                     );
@@ -99,14 +94,14 @@ const styles = StyleSheet.create({
         padding: 8,
         marginRight: 10,
     },
-    buttonView:{
+    buttonView: {
         backgroundColor: '#35D187',
         padding: 20,
         borderRadius: 50,
         marginBottom: 1.5,
         marginHorizontal: 20,
     },
-    buttonText:{
+    buttonText: {
         fontSize: 18,
         fontWeight: 'bold',
         color: '#fff',

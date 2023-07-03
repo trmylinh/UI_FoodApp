@@ -6,6 +6,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import RatingScreen from '../screens/Rating';
 import HomeScreen from '../screens/Home';
 import BottomTabBar from './BottomTabBar';
+import RestaurantScreen from '../screens/Restaurant';
 const Stack = createStackNavigator();
 
 export default function NavigationStack() {
@@ -17,7 +18,7 @@ export default function NavigationStack() {
         >
             <Stack.Screen name="BottomTabBar" component={BottomTabBar} />
             <Stack.Screen name="RatingScreen" component={RatingScreen} />
-
+            <Stack.Screen name="RestaurantScreen" component={RestaurantScreen} />
         </Stack.Navigator>
 
     );

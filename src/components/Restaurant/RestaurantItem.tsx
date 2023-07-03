@@ -3,12 +3,12 @@
 import { View, Text, StyleSheet, Image, TouchableOpacity } from 'react-native';
 import React from 'react';
 import Icon from 'react-native-vector-icons/Ionicons';
-export default function RestaurantItem({ data, navigation }: any) {
-  const { name, price, rating, discount, image, menu }: any = data;
+export default function RestaurantItem({ data, onPress}: any) {
+  const { name, price, rating, discount, image, menu}: any = data;
   return (
     <View style={styles.container}>
       <View>
-        <TouchableOpacity>
+        <TouchableOpacity onPress={onPress}>
           <Image
             source={image}
             style={styles.imgPreview}
