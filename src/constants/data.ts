@@ -1,4 +1,9 @@
 /* eslint-disable prettier/prettier */
+import Terrible from '../assets/svgs/Terrible.svg';
+import Bad from '../assets/svgs/Bad.svg';
+import Meh from '../assets/svgs/Meh.svg';
+import Good from '../assets/svgs/Good.svg';
+import Awesome from '../assets/svgs/Awesome.svg';
 export const restaurants = [
 	{
 		id: '1',
@@ -414,4 +419,31 @@ export const popularFoods = [
 	'Vegetarian',
 	'Vegan',
 	'Venezuelan',
+];
+export const iconRatings = [
+	{
+		id: '1',
+		svg: Terrible,
+		name: 'Terrible',
+	},
+	{
+		id: '2',
+		svg: Bad,
+		name: 'Bad',
+	},
+	{
+		id: '3',
+		svg: Meh,
+		name: 'Meh',
+	},
+	{
+		id: '4',
+		svg: Good,
+		name: 'Good',
+	},
+	{
+		id: '5',
+		svg: Awesome,
+		name: 'Awesome',
+	},
 ];

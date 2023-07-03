@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 2048 2048" style="enable-background:new 0 0 2048 2048;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:#461515;}
+	.st2{fill:url(#SVGID_2_);}
+	.st3{clip-path:url(#XMLID_13_);fill:url(#XMLID_14_);}
+	.st4{fill:#4FB44D;}
+	.st5{fill:#CEE18C;}
+	.st6{fill:url(#SVGID_3_);}
+	.st7{fill:url(#SVGID_4_);}
+	.st8{fill:url(#SVGID_5_);}
+	.st9{opacity:0.81;}
+	.st10{fill:#FFFFFF;}
+	.st11{fill:#542A1A;}
+	.st12{fill:#F1A221;}
+	.st13{fill:url(#SVGID_6_);}
+	.st14{fill:#EA6726;}
+	.st15{fill:url(#SVGID_7_);}
+	.st16{display:none;}
+	.st17{display:inline;}
+	.st18{display:inline;clip-path:url(#XMLID_15_);fill:#A61E22;}
+	.st19{display:none;fill:#FFFFFF;stroke:#542A19;stroke-width:8;stroke-miterlimit:10;}
+	.st20{fill:#542A19;}
+	.st21{fill:none;stroke:#542A1A;stroke-width:5;stroke-miterlimit:10;}
+	.st22{fill:url(#SVGID_8_);}
+	.st23{display:none;fill:none;stroke:#444B54;stroke-width:40;stroke-linecap:round;stroke-miterlimit:10;}
+	.st24{display:none;fill:#F2A81E;}
+	.st25{opacity:0.76;fill:#461515;}
+	.st26{display:inline;clip-path:url(#XMLID_17_);fill:#A61E22;}
+	.st27{fill:url(#SVGID_9_);}
+	.st28{display:inline;clip-path:url(#XMLID_18_);fill:#A61E22;}
+	.st29{display:inline;clip-path:url(#XMLID_21_);fill:#A61E22;}
+	.st30{fill:#B2D1E1;}
+	.st31{fill:#CFDAE0;}
+	.st32{fill:url(#SVGID_10_);}
+	.st33{opacity:0.81;fill:none;stroke:#FFFFFF;stroke-width:60;stroke-linecap:round;stroke-miterlimit:10;}
+	.st34{display:inline;clip-path:url(#XMLID_22_);fill:#A61E22;}
+	.st35{display:none;fill:none;stroke:#542A19;stroke-width:40;stroke-linecap:round;stroke-miterlimit:10;}
+	.st36{fill:#451716;}
+	.st37{fill:url(#SVGID_11_);}
+	.st38{display:inline;clip-path:url(#XMLID_23_);fill:#A61E22;}
+	.st39{display:inline;clip-path:url(#XMLID_24_);fill:#A61E22;}
+	.st40{fill:url(#SVGID_12_);}
+	.st41{fill:#542A1B;}
+	.st42{fill:url(#SVGID_13_);}
+	.st43{display:inline;clip-path:url(#XMLID_25_);fill:#A61E22;}
+	.st44{display:inline;clip-path:url(#XMLID_26_);fill:#A61E22;}
+	.st45{fill:url(#SVGID_14_);}
+	.st46{fill:url(#SVGID_15_);}
+	.st47{fill:url(#SVGID_16_);}
+	.st48{opacity:0.64;fill:#606161;}
+	.st49{fill:url(#SVGID_17_);}
+	.st50{fill:url(#SVGID_18_);}
+	.st51{fill:url(#SVGID_19_);}
+	.st52{fill:#441716;}
+	.st53{fill:url(#SVGID_20_);}
+	.st54{fill:none;stroke:#451716;stroke-width:20;stroke-linecap:round;stroke-miterlimit:10;}
+	.st55{fill:url(#SVGID_21_);}
+	.st56{fill:url(#SVGID_22_);}
+	.st57{fill:#F1A81F;}
+	.st58{fill:url(#SVGID_23_);}
+	.st59{fill:url(#SVGID_24_);}
+	.st60{fill:#680D0D;}
+	.st61{fill:#A61E22;}
+	.st62{fill:url(#SVGID_25_);}
+	.st63{fill:url(#SVGID_26_);}
+	.st64{fill:url(#SVGID_27_);}
+	.st65{fill:none;stroke:#451716;stroke-width:40;stroke-linecap:round;stroke-miterlimit:10;}
+	.st66{fill:url(#SVGID_28_);}
+	.st67{fill:url(#SVGID_29_);}
+	.st68{fill:#F1F2F2;}
+	.st69{fill:#BE1E2D;}
+	.st70{fill:url(#SVGID_30_);}
+	.st71{fill:#E6E7E8;}
+	.st72{fill:url(#SVGID_31_);}
+	.st73{fill:#7AA540;}
+	.st74{fill:url(#SVGID_32_);}
+	.st75{fill:url(#SVGID_33_);}
+	.st76{fill:url(#SVGID_34_);}
+	.st77{fill:url(#SVGID_35_);}
+	.st78{fill:url(#SVGID_36_);}
+	.st79{fill:url(#SVGID_37_);}
+	.st80{fill:url(#SVGID_38_);}
+	.st81{fill:url(#SVGID_39_);}
+	.st82{fill:url(#SVGID_40_);}
+	.st83{fill:url(#SVGID_41_);}
+	.st84{fill:url(#SVGID_42_);}
+	.st85{fill:url(#SVGID_43_);}
+	.st86{fill:url(#SVGID_44_);}
+	.st87{fill:url(#SVGID_45_);}
+	.st88{fill:url(#SVGID_46_);}
+	.st89{fill:url(#SVGID_47_);}
+	.st90{fill:url(#SVGID_48_);}
+	.st91{fill:url(#SVGID_49_);}
+	.st92{fill:url(#SVGID_50_);}
+	.st93{fill:url(#SVGID_51_);}
+	.st94{fill:url(#SVGID_52_);}
+	.st95{fill:url(#SVGID_53_);}
+	.st96{fill:#D1D3D4;}
+</style>
+<g id="Guides">
+</g>
+<g id="Layer_2">
+</g>
+<g id="Layer_3">
+</g>
+<g id="Layer_4">
+</g>
+<g id="Layer_5">
+</g>
+<g id="Layer_6">
+</g>
+<g id="Layer_7">
+</g>
+<g id="Layer_8">
+</g>
+<g id="Layer_9">
+</g>
+<g id="Layer_10">
+</g>
+<g id="Layer_11">
+</g>
+<g id="Layer_12">
+</g>
+<g id="Layer_13">
+</g>
+<g id="Layer_14">
+</g>
+<g id="Layer_15">
+</g>
+<g id="Layer_16">
+</g>
+<g id="Layer_17">
+</g>
+<g id="Layer_18">
+</g>
+<g id="Layer_19">
+</g>
+<g id="Layer_20">
+</g>
+<g id="Layer_21">
+</g>
+<g id="Layer_22">
+</g>
+<g id="Layer_23">
+</g>
+<g id="Layer_24">
+	<g>
+		<g>
+			<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="280.28" y1="1024" x2="1767.72" y2="1024">
+				<stop  offset="0" style="stop-color:#B2D347"/>
+				<stop  offset="0.9947" style="stop-color:#8CBE3F"/>
+			</linearGradient>
+			<circle class="st0" cx="1024" cy="1024" r="743.72"/>
+			<path class="st33" d="M952.04,442.28c-158.4-0.8-367.2,87.84-411.84,297.87"/>
+			<g>
+				<g>
+					<g>
+						<path class="st73" d="M605.94,884.6c-10.42,0-20.08-0.98-28.79-2.99c-10.76-2.49-17.47-13.23-14.98-23.99
+							c2.49-10.76,13.23-17.47,23.99-14.98c28.1,6.5,85.48-2.8,150.29-38.2c52.94-28.91,95.36-67.01,110.7-99.43
+							c4.73-9.98,16.65-14.25,26.63-9.52c9.98,4.73,14.24,16.65,9.52,26.63c-19.06,40.27-66.8,84.16-127.68,117.42
+							C702.61,868.5,648.12,884.6,605.94,884.6z"/>
+					</g>
+				</g>
+				<g>
+					<g>
+						<path class="st73" d="M1437.48,884.6c-42.18,0-96.66-16.1-149.69-45.06c-60.89-33.25-108.62-77.15-127.68-117.42
+							c-4.73-9.98-0.47-21.91,9.52-26.63c9.99-4.73,21.91-0.47,26.63,9.52c15.35,32.42,57.77,70.51,110.71,99.43
+							c64.82,35.4,122.18,44.69,150.29,38.2c10.76-2.48,21.5,4.22,23.99,14.98c2.49,10.76-4.22,21.5-14.98,23.99
+							C1457.56,883.62,1447.89,884.6,1437.48,884.6z"/>
+					</g>
+				</g>
+			</g>
+		</g>
+		<g>
+			<g>
+				<g>
+					<g>
+						<ellipse class="st20" cx="772.93" cy="988.28" rx="62.77" ry="88.74"/>
+						<ellipse class="st20" cx="1269.55" cy="988.28" rx="62.77" ry="88.74"/>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g class="st9">
+			<path class="st10" d="M540.23,770.15c-2.07,0-4.16-0.21-6.27-0.66c-16.21-3.44-26.55-19.38-23.11-35.58
+				c21.98-103.42,83.1-188.9,176.75-247.22c76.02-47.35,171.49-74.41,262.28-74.41c0.78,0,1.54,0,2.32,0.01
+				c16.57,0.08,29.93,13.58,29.85,30.15c-0.08,16.52-13.5,29.85-30,29.85c-0.05,0-0.1,0-0.16,0c-0.58,0-1.18,0-1.77,0
+				c-130.25,0-337.77,72.7-380.58,274.11C566.55,760.49,554.09,770.15,540.23,770.15z"/>
+		</g>
+	</g>
+	<g>
+		<path class="st36" d="M1235.02,1357.17c-3.63,0-7.31-0.99-10.62-3.06c-54.73-34.36-125.45-53.28-199.13-53.28
+			c-73.73,0-144.95,18.93-200.54,53.31c-9.39,5.81-21.72,2.9-27.53-6.49c-5.81-9.39-2.9-21.72,6.49-27.53
+			c61.82-38.23,140.51-59.29,221.58-59.29c81.11,0,159.38,21.1,220.4,59.4c9.36,5.87,12.18,18.22,6.3,27.57
+			C1248.18,1353.85,1241.67,1357.17,1235.02,1357.17z"/>
+	</g>
+	<g>
+		<path class="st36" d="M727.47,1443.91c-11.05,0-20-8.95-20-20s8.95-20,20-20c36.8,0,66.75-29.94,66.75-66.75
+			s-29.94-66.75-66.75-66.75c-11.05,0-20-8.95-20-20s8.95-20,20-20c58.86,0,106.75,47.89,106.75,106.75
+			C834.21,1396.03,786.33,1443.91,727.47,1443.91z"/>
+	</g>
+	<g>
+		<path class="st36" d="M1321.78,1443.91c-58.86,0-106.75-47.89-106.75-106.75c0-58.86,47.89-106.75,106.75-106.75
+			c11.05,0,20,8.95,20,20s-8.95,20-20,20c-36.8,0-66.75,29.94-66.75,66.75s29.94,66.75,66.75,66.75c11.05,0,20,8.95,20,20
+			S1332.83,1443.91,1321.78,1443.91z"/>
+	</g>
+</g>
+<g id="Layer_25">
+</g>
+<g id="Layer_26">
+</g>
+</svg>
