@@ -9,6 +9,7 @@ import { iconRatings, myOrders } from '../../constants';
 import RatingItem from '../../components/Rating/RatingItem';
 export default function RatingScreen({ navigation }: any) {
     const [isChoosen, setIsChoosen] = useState('');
+    const [nextPage, setNextPage] = useState(false);
     return (
         <View style={styles.container}>
             {/* go back header*/}
@@ -48,6 +49,9 @@ export default function RatingScreen({ navigation }: any) {
                 }
                 )}
             </View>
+            <TouchableOpacity style={styles.buttonView}>
+                <Text style={styles.buttonText}>Continue</Text>
+            </TouchableOpacity>
         </View>
     );
 }
@@ -88,11 +92,24 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         marginLeft: 20,
         marginTop: 30,
+        flex: 1,
     },
     iconItemView: {
-        // backgroundColor: '#F4F4F7',
         borderRadius: 100,
         padding: 8,
         marginRight: 10,
+    },
+    buttonView:{
+        backgroundColor: '#35D187',
+        padding: 20,
+        borderRadius: 50,
+        marginBottom: 1.5,
+        marginHorizontal: 20,
+    },
+    buttonText:{
+        fontSize: 18,
+        fontWeight: 'bold',
+        color: '#fff',
+        textAlign: 'center',
     },
 });
