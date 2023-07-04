@@ -200,6 +200,7 @@ export const restaurants = [
 						id: '3',
 						name: '12 piece bucket',
 						description: 'Chicken',
+						isPopular: true,
 						price: '3.00',
 						image: require('../assets/images/restaurant_foods/12-piece.jpg'),
 					},
@@ -229,7 +230,7 @@ export const restaurants = [
 					{
 						id: '1',
 						name: 'Chilli Cheese Smashed burger',
-						description: 'Chicken',
+						description: '3 honey fried wings and 2 crispy fried chicken breasts. Fried rice + Pepsi drink and cabbage salad',
 						price: '3.00',
 						discount: '50.00',
 						isPopular: true,
@@ -238,7 +239,7 @@ export const restaurants = [
 					{
 						id: '2',
 						name: 'Bacon, Cheese and Guacamole burger',
-						description: 'Chicken',
+						description: '4 fried chicken wings with honey and garlic',
 						price: '3.00',
 						image: require('../assets/images/restaurant_foods/bacon-burger.jpg'),
 					},
@@ -247,6 +248,7 @@ export const restaurants = [
 						name: 'Mushroom Burger',
 						description: 'Chicken',
 						price: '3.00',
+						isPopular: true,
 						image: require('../assets/images/restaurant_foods/mushroom-burger.jpg'),
 					},
 					{

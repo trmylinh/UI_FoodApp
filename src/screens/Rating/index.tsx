@@ -13,11 +13,16 @@ export default function RatingScreen({ navigation }: any) {
     return (
         <View style={styles.container}>
             {/* go back header*/}
-            <Header
-                icon="md-close"
-                text="Rate your order"
-                onPress={() => navigation.goBack()}
-            />
+            <View style={styles.iconView}>
+                <TouchableOpacity onPress={() => navigation.goBack()}>
+                    <Ionicons
+                        name="md-close"
+                        size={30}
+                        color="#000"
+                    />
+                </TouchableOpacity>
+                <Text style={styles.textHeader}>Rate your order</Text>
+            </View>
 
             {/* order info */}
             <View>
