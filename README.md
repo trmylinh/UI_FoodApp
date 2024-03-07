@@ -1,5 +1,9 @@
 # UI_FoodApp
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli) and prioritizes user interfacedesign and JSON data integration
+# 🛠️ Technologies
+<img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original.svg" title="React" alt="React" width="50" height="50"/>&nbsp;
+<img src="https://github.com/devicons/devicon/blob/master/icons/typescript/typescript-original.svg" title="TS" alt="React" width="50" height="50"/>&nbsp;
+<img src="https://github.com/devicons/devicon/blob/master/icons/reactnavigation/reactnavigation-original.svg" title="TS" alt="React" width="50" height="50"/>&nbsp;
 # APK File
 You can try it by installing on Android
 https://i.diawi.com/PJn4eg
